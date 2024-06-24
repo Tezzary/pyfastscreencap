@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyfastscreencap_tezzary"
+version = "0.0.4"
+authors = [
+  { name="tezzary", email="tezzary1@gmail.com" },
+]
+description = "A lightning fast Windows screen recorder that can record up to your monitors refresh rate by leveraging DXCam and ffmpeg"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "dxcam",
+    "numpy"
+]
+
+[project.urls]
+Homepage = "https://github.com/tezzary/pyfastscreencap"
+Issues = "https://github.com/tezzary/pyfastscreencap/issues"
