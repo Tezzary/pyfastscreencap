@@ -3,7 +3,7 @@ import numpy as np
 from threading import Thread
 from time import perf_counter
 import subprocess
-import pyfastscreencap_tezzary.settingsfiller as settingsfiller
+import pyfastscreencap.settingsfiller as settingsfiller
 
 def _accurate_sleep(seconds):
     start = perf_counter()

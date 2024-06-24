@@ -1,0 +1,4 @@
+update the pyproject.toml to new version name
+run py -m build
+run twine upload dist/* to upload to pypi
+run twine upload --repository testpypi dist/* to upload to testpypi

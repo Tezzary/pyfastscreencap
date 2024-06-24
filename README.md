@@ -9,7 +9,7 @@ pip install pyfastscreencap
 ## Example
 
 ```python
-from pyfastscreencap_tezzary import pyfastscreencap as screencap
+from pyfastscreencap import pyfastscreencap as screencap
 from time import sleep
 
 recorder = screencap.Recorder("video.mp4", 0, 120, 50, True)

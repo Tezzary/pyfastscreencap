@@ -3,8 +3,8 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "pyfastscreencap_tezzary"
-version = "0.0.4"
+name = "pyfastscreencap"
+version = "1.0.1"
 authors = [
   { name="tezzary", email="tezzary1@gmail.com" },
 ]
