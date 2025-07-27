@@ -1,3 +1,4 @@
+![PyPI Downloads](https://static.pepy.tech/badge/pyfastscreencap)
 # pyfastscreencap
 
 This is a screen recorder in Python that takes advantage of dxcam and ffmpeg to heavily speed up the screen recording process to reach much higher fps counts than you could otherwise reach.
